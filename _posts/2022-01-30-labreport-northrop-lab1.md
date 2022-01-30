@@ -4,7 +4,7 @@ tags: Lab-Notebook-Entry
 article_header:
   type: cover
   image:
-    src: /docs/assets/images/southpoint.jpeg
+    src: /docs/assets/images/southpoint.jpg
 ---
 
 # Completing Lab 1
@@ -19,4 +19,3 @@ My goals for the semester are...
 
 ---
 
-[star]
