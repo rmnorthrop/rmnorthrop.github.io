@@ -4,7 +4,7 @@ tags: Lab-Notebook-Entry
 article_header:
   type: cover
   image:
-    src: /docs/assets/images/southpoint.jpg
+    src: /docs/assets/images/cover4.jpg
 ---
 
 # Completing Lab 1
