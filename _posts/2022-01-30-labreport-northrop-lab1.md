@@ -1,15 +1,22 @@
 ---
-title: Lab Notebook Entry #1
+title: Lab 1 Notebook Entry
 tags: Lab-Notebook-Entry
 article_header:
   type: cover
   image:
-    src: /docs/assets/images/southpoint.jpg
+    src: /docs/assets/images/southpoint.jpeg
 ---
 
-# *Lab Notebook Entry*
+# Completing Lab 1
 
-## Process
+### Process
+The process to complete lab 1...
+
+### Goals
+
+My goals for the semester are...
 
 
-## Goals
+---
+
+[star]
