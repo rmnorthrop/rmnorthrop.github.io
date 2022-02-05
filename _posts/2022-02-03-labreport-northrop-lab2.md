@@ -9,22 +9,22 @@ article_header:
 
 # **Completing Lab 2**
 
-### Spreadsheets
+## Spreadsheets
 
 [Rachel's copy of Transatlantic Slave Trade database](https://docs.google.com/spreadsheets/d/1d80Q10UCznrg72bCbJ79PpmNVwJD4CJ-m-COGi9ddg4/edit?usp=sharing)
  
 [Rachel's copy of Post45 HathiTrust Fiction 1945-2000 database](https://docs.google.com/spreadsheets/d/1YeHv_ZUYMjPFDvX9cDqWPa5j90LoCrgV5SBRmxVVwrc/edit?usp=sharing)
 
-### Observations
+## Observations
 
-##Transatlantic Slave Trade Database
+### Transatlantic Slave Trade Database
 
-In addition to the three pivot tables listed to create ("Particular outcome of voyages" [AO], "Outcome of voyages for slaves" [AN], and "African Resistance" [AU]), I generated two pivot tables of pivot tables: "Captured" outcomes and Resistance by year.
+In addition to the three pivot tables listed to create ("Particular outcome of voyages" (AO), "Outcome of voyages for slaves" (AN), and "African Resistance" (AU])), I generated two pivot tables of pivot tables: "Captured" outcomes and Resistance by year.
 In the "Captured" outcomes table I created a pivot table of the Particular outcomes pivot table I had already created and filtered for any outcome field that contained the word "captured." I then created a SUM of all the records that had each of those 63 captured options to see the most common types of capture and the total number of vessels from the dataset that were captured. I added this info back to the Particular outcomes table in a manual column (E) where I also tallied the total vessels/voyages that were condemned in one form or another, shipwrecked in one way or another, or reported as "no further record." This total was more than half of the voyages listed as "completed as intended," the most common outcome recorded. I just thought it was interesting all the different ways a voyage could fail and how high the instances of loss of ship/life were in the the ~350 represented by the dataset.
 The Resistance by year table is not technically a pivot table of a pivot table because I created it by going back to the full dataset to generate it, but after seeing that there were 576 total voyages with recorded instances of African resistance, I was curious what was the distribution of those instances over time. The Resistance by year table shows years chronologically with a tally of resistance events by category and a total of all categories. The African resistance instances are most heavily concentrated between around 1715 and 1807 and within that 1750 to 1776.
 I created these additional pivot tables mostly to play with what happens when using filters and adding data to the Columns field (beyond the Rows and Values fields we used in class). I was surprised that Google Sheets only lets you apply one filter at a time, unless I was missing something? I love being able to run a good filter script of AND/OR with parentheses within parentheses! I used that feature of Salesforce/Pardot CRM and email marketing frequently to create lists of exactly which clients we needed to reach. I also like playing with filter criteria of contains/does not contain, contains only, etc. The flexibility of filter fields I think is one way that can move beyond binary filtering criteria of "value is true/false." But, of course the filter capabilities are predetermined by the program designer. As we were working with pivot tables, I was realizing that they were essentially a way to filter and organize components within a data set. Since I'm more familiar with working with filters to create a specific subset from a giant, messy dataset, I'll have to keep playing with the way the fields/options in pivot tables work to see what that tool can do.
 
-##Post45 HathiTrust Database
+### Post45 HathiTrust Database
 
 In general, I found the Post45 HathiTrust database to be difficult to work with. The fact that most of the Genre and Subject fields were NA limited the number of meaningful ways to organize the data from the dataset. This has to do with what we discussed in class about the lack of "controlled vocabulary." The fields that do have subject and/or genre data entered have a wide range of language that refers, potentially, to literature that might be clustered together. I think this lack of controlled vocabulary, however, points to one of the reasons it quickly gets tricky to work with qualitative over quantitative data in a large set like this: who decides what the categories are and where their boundaries lie? I created a Subject Tallies pivot table to answer the question of, "Given the subject data that is recorded, what are the most common subject areas in the dataset?" The top results, "World War, 1939-1945" and "Social life an customs" actually give an accurate umbrella summation of the other subjects on the list. WWI, the Vietnam War, the Civil War, and the Korean War also appear on the list, as do many sub-categories that fall under "social life and customs," from "manners and customs" to "gay erotic literature." If this pivot table tells us anything it is that a lot of post-1945 literature has to do with war and social life. Or, maybe that information is so general it doesn't tell us anything at all.
 
@@ -32,7 +32,7 @@ For the second pivot table, I created a list of the publishers/publishing houses
 
 Finally, I made a 1970s Imprintdate table that is not really a pivot table but a list of all works in the dataset that were published in the 1970s. In this case, it is helpful that the "Title" field (vs "short title") does list the title, author, and in some cases publication date. Because nothing is being calculated in this table, it is essentially a no-scroll quick-view of the 1970s section of the full data set (without all the "extraneous" numerical fields).
 
-### Response
+## Response
 
 **What do the spreadsheets we explored this week make it possible to know or to study or to question, and what do they occlude or make impossible to know or question?**
 
@@ -42,6 +42,6 @@ The Post45 HathiTrust dataset, on the other hand, does not provide census-view p
 
 Since I think that the transatlantic data base makes it possible to know, study, and question the collective experience of enslaved people from 1514 to 1840, I think it is interesting to wonder what other collective experiences might be "captured" by industry datasets, both historical and current. Running a business compels record keepers to use standardized vocabulary and record data in the same or similar fields over time. I think these tendencies, which are dehumanizing and flattening on the one hand, can, on the other, offer population-level perspectives. All this, of course, without thinking that any government census or business record makes us fall for the "god trick" of thinking that we can see everything. In general, I agree with Ian Baucom's formulation that "'finance capital dominates the imagining of value'(31)" that Wilson cites, but I like the idea that, in its pursuit of commensurable commodity valuations where everything from widget to human being can be equated with units of currency, finance capital accidentally captures descriptive stories of collective experience. Buried in the transaction records of millions of Amazon shopping carts, maybe there are stories of retured shoddy goods, rejected products that did not fit the description, and other stories of collective resistance to the commodification of our lives. Both datasets we worked with this week, and maybe any dataset, makes it impossible to know the content--what was that novel about? Where were the homelands of the 493 people forced onto Daniel ter Velde's Dutch ship in 1732? It makes it impossible to know what was important to the people recorded in the data--the enslaved or the post-1945 authors. Because both the records in the datasets and the datasets themselves were complied by people who themselves are not part of the dataset, we only know what was important, of value, to that outside party's "god view." I think it is possible to ask very different questions of datasets people create about themselves versus datasets created by an observational or oppressive/controlling group.
 
-# Work Cited 
+### Work Cited 
 Sarah Wilson. "Black Folk by the Numbers: Quantification in DuBois." **American Literary History** Volume 28, Number 1, Spring 2016 published by Oxford UP, accessed via Project Muse.
 
