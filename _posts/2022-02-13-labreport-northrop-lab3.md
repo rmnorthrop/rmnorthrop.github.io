@@ -72,15 +72,15 @@ Sub: ,<br/>
 Action: Semicolons are replaced with commas. In the dataset there are now escaped commas that should remain within a column and commas that indicate column separation.<br/>
 
 ```
-The Epoch Times\, New York ed., New York NY<br/>
-La Voz Bilingüe, Denver\, Colo.<br/>
-Jewish Advocate, Boston<br/>
-Washington Informer, Washington\, D.C.<br/>
-News from Indian Country, Hayward\, WI.<br/>
-Afro - American\, 5 Star edition, Baltimore\, Md.<br/>
-Diverse Issues in Higher Education, Fairfax Virginia<br/>
-The Gay & Lesbian Review Worldwide, Boston\, MA<br/>
-The Hispanic Outlook in Higher Education, Paramus N.J<br/>
+The Epoch Times\, New York ed., New York NY
+La Voz Bilingüe, Denver\, Colo.
+Jewish Advocate, Boston
+Washington Informer, Washington\, D.C.
+News from Indian Country, Hayward\, WI.
+Afro - American\, 5 Star edition, Baltimore\, Md.
+Diverse Issues in Higher Education, Fairfax Virginia
+The Gay & Lesbian Review Worldwide, Boston\, MA
+The Hispanic Outlook in Higher Education, Paramus N.J
 ```
 
 ## Response
