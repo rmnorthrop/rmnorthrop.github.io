@@ -7,9 +7,9 @@ article_header:
     src: /pumpkinRegEx.jpg
 ---
 
-# **Completing Lab 3: Regular Expressions Housework**
+## **Completing Lab 3: Regular Expressions Housework**
 
-## "Cleaning" The Sample Dataset
+### "Cleaning" The Sample Dataset
 
 Following the concept of identifying extraneous characters by replacing them with nothing, after removing all quotation marks I decided to remove all brackets and parentheses.
 
