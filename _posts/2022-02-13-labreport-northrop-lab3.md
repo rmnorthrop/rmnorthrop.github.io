@@ -13,13 +13,13 @@ article_header:
 
 Following the concept of identifying extraneous characters by replacing them with nothing, after removing all quotation marks I decided to remove all brackets and parentheses.
 
-1. RegEx: “
-Sub: null
-Action: remove quotation marks
+1. RegEx: “<br/>
+Sub: null<br/>
+Action: remove quotation marks<br/>
 
-2. RegEx: \[
-Sub: null
-Action: remove left brackets (using “escape” syntax so that RegEx doesn’t think the bracket symbol is opening an expression)
+2. RegEx: \[<br/>
+Sub: null<br/>
+Action: remove left brackets (using “escape” syntax so that RegEx doesn’t think the bracket symbol is opening an expression)<br/>
 
 3. RegEx: \]
 Sub: null
@@ -41,15 +41,15 @@ Action: remove 	question marks
 
 Now that the data looked like this, I wanted to deal with the commas and semicolons to get commas in a position where they will separate the title and location columns to be understood in a .csv format.
 
-The Epoch Times, New York ed.; New York NY
-La Voz Bilingüe; Denver, Colo.
-Jewish Advocate; Boston
-Washington Informer; Washington, D.C.
-News from Indian Country; Hayward, WI.
-Afro - American, 5 Star edition; Baltimore, Md.
-Diverse Issues in Higher Education; Fairfax Virginia
-The Gay &amp; Lesbian Review Worldwide; Boston, MA
-The Hispanic Outlook in Higher Education; Paramus N.J
+The Epoch Times, New York ed.; New York NY<br/>
+La Voz Bilingüe; Denver, Colo.<br/>
+Jewish Advocate; Boston<br/>
+Washington Informer; Washington, D.C.<br/>
+News from Indian Country; Hayward, WI.<br/>
+Afro - American, 5 Star edition; Baltimore, Md.<br/>
+Diverse Issues in Higher Education; Fairfax Virginia<br/>
+The Gay &amp; Lesbian Review Worldwide; Boston, MA<br/>
+The Hispanic Outlook in Higher Education; Paramus N.J<br/>
 
 First, I got rid of the semicolon and redundant ampersand characters.
 
