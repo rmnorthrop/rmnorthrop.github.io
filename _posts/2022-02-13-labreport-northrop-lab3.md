@@ -41,6 +41,7 @@ Action: remove 	question marks
 
 Now that the data looked like this, I wanted to deal with the commas and semicolons to get commas in a position where they will separate the title and location columns to be understood in a .csv format.
 
+```
 The Epoch Times, New York ed.; New York NY<br/>
 La Voz Bilingüe; Denver, Colo.<br/>
 Jewish Advocate; Boston<br/>
@@ -50,34 +51,35 @@ Afro - American, 5 Star edition; Baltimore, Md.<br/>
 Diverse Issues in Higher Education; Fairfax Virginia<br/>
 The Gay &amp; Lesbian Review Worldwide; Boston, MA<br/>
 The Hispanic Outlook in Higher Education; Paramus N.J<br/>
+```
 
 First, I got rid of the semicolon and redundant ampersand characters.
 
-7. RegEx: amp;
-Sub: null
-Action: remove amp; to leave just the ampersand & character
+7. RegEx: amp;<br/>
+Sub: null<br/>
+Action: remove amp; to leave just the ampersand & character<br/>
 
 Given the small size of this dataset, I was able to see that currently the semicolons are in the column separation position (between publication title and location) where we ultimately want commas to be. The commas in the dataset are either between parts of the publication title or between city and state. Those commas can stay in the final .csv, but I wanted to make sure that they would be read as comma characters, not as commands to separate data into new columns. My idea was to replace the existing comma , with an escaped comma \, to indicate "this is a comma character, not an instruction."
 
-8. RegEx: , OR \, I got the same result with both entries
-Sub: \\, because I wanted to add the backslash character and entering just \, was still read as only a comma
-Action: all commas are now replaced preceded by a backslash to appear as escaped commas \,
+8. RegEx: , OR \, I got the same result with both entries<br/>
+Sub: \\, because I wanted to add the backslash character and entering just \, was still read as only a comma<br/>
+Action: all commas are now replaced preceded by a backslash to appear as escaped commas \,<br/>
 
 Now I can replace all the semicolons with commas and those new commas will appear as commas alone , to be read as column separation instructions when the dataset is migrated to Excel, Google Sheets, or another program that reads .csv files.
 
-9. RegEx: ;
-Sub: ,
-Action: Semicolons are replaced with commas. In the dataset there are now escaped commas that should remain within a column and commas that indicate column separation.
+9. RegEx: ;<br/>
+Sub: ,<br/>
+Action: Semicolons are replaced with commas. In the dataset there are now escaped commas that should remain within a column and commas that indicate column separation.<br/>
 
-The Epoch Times\, New York ed., New York NY
-La Voz Bilingüe, Denver\, Colo.
-Jewish Advocate, Boston
-Washington Informer, Washington\, D.C.
-News from Indian Country, Hayward\, WI.
-Afro - American\, 5 Star edition, Baltimore\, Md.
-Diverse Issues in Higher Education, Fairfax Virginia
-The Gay & Lesbian Review Worldwide, Boston\, MA
-The Hispanic Outlook in Higher Education, Paramus N.J
+The Epoch Times\, New York ed., New York NY<br/>
+La Voz Bilingüe, Denver\, Colo.<br/>
+Jewish Advocate, Boston<br/>
+Washington Informer, Washington\, D.C.<br/>
+News from Indian Country, Hayward\, WI.<br/>
+Afro - American\, 5 Star edition, Baltimore\, Md.<br/>
+Diverse Issues in Higher Education, Fairfax Virginia<br/>
+The Gay & Lesbian Review Worldwide, Boston\, MA<br/>
+The Hispanic Outlook in Higher Education, Paramus N.J<br/>
 
 ## Response
 
