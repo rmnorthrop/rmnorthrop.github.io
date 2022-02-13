@@ -21,23 +21,23 @@ Action: remove quotation marks<br/>
 Sub: null<br/>
 Action: remove left brackets (using “escape” syntax so that RegEx doesn’t think the bracket symbol is opening an expression)<br/>
 
-3. RegEx: \]
-Sub: null
-Action: remove right brackets (using “escape” syntax so that RegEx doesn’t think the bracket symbol is closing an expression)
+3. RegEx: \]<br/>
+Sub: null<br/>
+Action: remove right brackets (using “escape” syntax so that RegEx doesn’t think the bracket symbol is closing an expression)<br/>
 
-4. RegEx: \(
-Sub: null
-Action: remove right parentheses (using “escape” syntax so that RegEx doesn’t think the bracket symbol is closing an expression)
+4. RegEx: \(<br/>
+Sub: null<br/>
+Action: remove right parentheses (using “escape” syntax so that RegEx doesn’t think the bracket symbol is closing an expression)<br/>
 
-5. RegEx: \)
-Sub: null
-Action: remove left parentheses (using “escape” syntax so that RegEx doesn’t think the bracket symbol is closing an expression)
+5. RegEx: \)<br/>
+Sub: null<br/>
+Action: remove left parentheses (using “escape” syntax so that RegEx doesn’t think the bracket symbol is closing an expression)<br/>
 
 For both of these characters, brackets and parentheses, I kept thinking there must be a way to capture both the left and right characters at the same time, but using the asterisk to indicate “anything that’s in between the brackets/parentheses” didn’t work (RegEx then couldn’t match either the left or right facing characters). Adding a space in the expression also didn’t work -- \[ \] because none of the data has a space character following a bracket or parenthese. I also didn’t want to remove the data between the brackets and parentheses, so I just did it one character at time.
 
-6. RegEx: \?
-Sub: null
-Action: remove 	question marks
+6. RegEx: \?<br/>
+Sub: null<br/>
+Action: remove question marks<br/>
 
 Now that the data looked like this, I wanted to deal with the commas and semicolons to get commas in a position where they will separate the title and location columns to be understood in a .csv format.
 
