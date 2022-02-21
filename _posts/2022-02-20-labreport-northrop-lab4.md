@@ -1,5 +1,5 @@
 ---
-title: Lab 3 Notebook Entry
+title: Lab 4 Notebook Entry
 tags: Lab-Notebook-Entry
 article_header:
   type: cover
