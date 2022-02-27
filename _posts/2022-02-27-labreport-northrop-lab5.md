@@ -4,7 +4,7 @@ tags: Lab-Notebook-Entry
 article_header:
   type: cover
   image:
-    src: /vert.JPEG
+    src: /vert.jpeg
 ---
 
 ## **Completing Lab 5: Python in Jupyter Notebooks**
@@ -21,9 +21,12 @@ division of "let's" into 'let' and 's'
 From re documentation: "\W Matches any character which is not a word character. This is the opposite of \w." From what I understood of the re documentation, backslash uppercase W matches characters that are not defined as part of words, including punctuation marks and spaces. Backslash lowercase w, on the contrary, matches anything that is a word in any language, meaning any string of letters not interrupted by numbers, punctuation, or spaces.
 From re documentation: "+ Causes the resulting RE to match 1 or more repetitions of the preceding RE. ab+ will match ‘a’ followed by any non-zero number of ‘b’s; it will not match just ‘a’." I take the addition of a nonzero number of repetitions (one or more) after the \W to mean that the function will look for the pattern of word, nonword as many times as it appears in the string of text to be able to split the string into individual words.
 
-'''
+```
 def split_into_words(any_chunk_of_text):
 # split the string into individual terms and make them all lowercase
 words = re.split("\W+", any_chunk_of_text.lower())
 return words 
-'''
+```
+
+Question 2
+*What happened? Did it work as you expected? If not, what happened that you didn't expect?*
