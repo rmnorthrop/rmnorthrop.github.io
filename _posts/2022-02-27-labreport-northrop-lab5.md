@@ -12,9 +12,9 @@ article_header:
 ### Process Questions
 
 Question 1
-*What do you notice about how this function has split the string "Okay, okay, ladies, now let's get in formation, cause I slay"? What has it done that isn't quite right, and why has it done this? Write down your response in your notes document.*
+*What do you notice about how this function has split the string "Okay, okay, ladies, now let's get in formation, cause I slay"? What has it done that isn't quite right, and why has it done this?*
 
-division of "let's" into 'let' and 's'
+The function has accurately split the string into individual words, with the exception of the division of "let's" into 'let' and 's.' This happened because the function reads punctuation, including apostrophes, as indications that a new word is ending/beginning. While this is true of a word followed by a comma or a period, it is not the case with an apostrophe. I wonder if the function could be changed to indicate the a new word begins after a space OR after a punctuation+space, since ending and intra-sentence punctuation is always followed by a space. This way, hypenated words would also be understood as single words, rather than split into two, as they would be given how the function is currently written.
 
 *What does the regular expression "\W+" mean in Python? What does "\W" mean? What does "+" do? What do these symbols mean when used together in a regular expression?*
 
