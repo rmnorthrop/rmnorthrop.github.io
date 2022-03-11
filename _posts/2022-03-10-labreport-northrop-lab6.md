@@ -4,14 +4,14 @@ tags: Lab-Notebook-Entry
 article_header:
   type: cover
   image:
-    src: /bestsellers.jpeg
+    src: /Bestsellers.jpeg
 ---
 
 ## **Analyzing the 20th-Century American Bestsellers Database**
 
-### Link to (Dataset Documentation Google Sheet)[https://docs.google.com/spreadsheets/d/1lXn90sRHnt38ZMJNI3nUtvTVAiE5Q4vNVWRxeB_5E_M/edit?usp=sharing] 
+### Link to [Dataset Documentation Google Sheet](https://docs.google.com/spreadsheets/d/1lXn90sRHnt38ZMJNI3nUtvTVAiE5Q4vNVWRxeB_5E_M/edit?usp=sharing)
 
-### Link to the (Bestsellers Database website)[http://bestsellers.lib.virginia.edu/] and (list of database entries)[https://docs.google.com/spreadsheets/d/1EkTyYB8rGt4FtZJM58duODuzJGVQ5eEqZpHigx6Z48E/edit?usp=sharing] copied into Google Sheet.
+### Link to the [Bestsellers Database website](http://bestsellers.lib.virginia.edu/) and [list of database entries](https://docs.google.com/spreadsheets/d/1EkTyYB8rGt4FtZJM58duODuzJGVQ5eEqZpHigx6Z48E/edit?usp=sharing) copied into Google Sheet.
 
 ## Dataset Analysis
 
