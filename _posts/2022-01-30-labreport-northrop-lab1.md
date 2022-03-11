@@ -32,3 +32,4 @@ So far these are thoughful ideas about goals. Looking at the readings and labs w
 
 ---
 
+Image: *Biscayne Beacon in Bill Baggs State Park, 2021*

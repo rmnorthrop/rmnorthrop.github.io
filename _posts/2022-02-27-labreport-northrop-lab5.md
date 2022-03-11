@@ -62,3 +62,5 @@ On page 5 of her paper Guldi writes that "This article calls for a critically-in
 ### Lab 6 Dataset
 
 For Lab 6, I am going to work with the [20th-Century American Best Sellers](http://bestsellers.lib.virginia.edu/) online database. The past exhibit at U of Virginia of Lillian Gary Taylor's physical collection of best selling books 1752 - 1950 is a really interesting corollary to the digital database. It would be illuminating, I think, to see the cover art and fonts alone from that span of time to think about book-as-object in addition to book-as-data-point.
+
+Image: *Vert at the Redland Fruit and Spice Park, 2022*

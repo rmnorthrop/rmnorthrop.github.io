@@ -50,3 +50,5 @@ Since I think that the transatlantic data base makes it possible to know, study,
 ### Work Cited 
 Sarah Wilson. "Black Folk by the Numbers: Quantification in DuBois." **American Literary History** Volume 28, Number 1, Spring 2016 published by Oxford UP, accessed via Project Muse.
 
+
+Image: *Post-45 Shelf Slice*
