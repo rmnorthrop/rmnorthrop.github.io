@@ -24,12 +24,13 @@ These criteria have been determined according to the guiding principle of books 
 ![](path-to-image)
 
 This “trail” will take the form of seven tabs. The final dataset will appear in the MERGED tab, while the other six tabs will show the construction process: the “raw” or unmodified data copied from the three source datasets and each modified component set prior to merging into the final 1970s Bibliography dataset. 
+
 *Boundaries/scope:* In the merging process, some records from HathiTrust and 20th-Century Bestsellers will be deleted. For example, sets include “false positives” of works published previously and republished in the 70s and duplicate records. These duplicates and reprints will remain visible in the breadcrumb tabs.
 ### **Dataset Documentation/Codebook: Metadata Fields**
  
 <img class="image" src="metadata_fields.jpg"/>
 
-![](path-to-image)
+![](src: /metadata_fields.jpg)
 
 The above image shows the metadata fields that will appear in the final, merged dataset in black text (row 1). The purple text shows the column headers (row 3) and a record entry (row 4) from the existing HathiTrust dataset. I have not modified the purple text as it appears; I’ve only deleted columns from the original HathiTrust dataset. The order and content of all three component datasets inform the metadata fields in the new 1970s Bibliography dataset. The HathiTrust dataset has by far the most records of books published in the 1970s (11,000+), and so I have used the order of metadata fields from that dataset as the base for the metadata fields in the new 1970s Bibliography. That way, the process of pre-merge data reformatting involves only the deletion of columns and moving the “Title” column from position M (in the above view) to position A. From there I will use Regular Expressions to break up the information in the “imprint” field to populate the “Publisher,” “Publication Year,” and “Publication Place” columns. 
 
