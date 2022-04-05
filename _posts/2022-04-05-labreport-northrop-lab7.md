@@ -35,16 +35,27 @@ Component data from the 20th Century Bestsellers database (100 records) and from
 *Codebook draft:*
 
 Title: Book title 
+
 Author: Book author (omitted in the case of an edited collection. See “Editors and Illustrators” field)
+
 Publisher: Book publishing house or press (information currently only available for records in the HathiTrust dataset. Would have to manually look up publisher for titles in 20th-Century and personal datasets.)
+
 Publication Year: Year of publication (for books first published in English in the US, this is the date of first printing. For books first published in English internationally or first translated into English, this is the year of first US publication. Information currently only available for records in the HathiTrust dataset. Would have to manually find for titles in 20th-Century and personal datasets.)
+
 Publication Place: City and country where publisher is located (information currently only available for records in the HathiTrust dataset. Would have to manually find for titles in 20th-Century and personal datasets.)
+
 Editors and Illustrators: Book editor and/or illustrator where applicable (information currently only available for records in the HathiTrust dataset. Would have to manually find for titles in 20th-Century and personal datasets.)
+
 Genre 1: Information currently only available for records in the HathiTrust dataset. Would have to manually assign for titles in 20th-Century and personal datasets. “Genre 1” is broader category than “Genre 2.” Ie “Genre 1” might indicate “Fiction” or “Nonfiction’ and Genre 2 “Juvenile” or “Textbook.”
+
 Genre 2: Narrower category than Genre 1. There is no preset menu of Genre 1 and 2 options. The goal is that they are descriptive rather than standardized (ie they provide further qualitative information when reading a record but are not a standardized filtering field meant to capture all titles in a give genre. This is because I view genre as a fluid interpretive category rather than a standardized field and would like the dataset design to reflect this belief).
+
 Subjects: Information currently only available for some records in the HathiTrust dataset. Includes specific data that could inform completion of Genre 1 and 2 fields, such as “prehistoric peoples,” which likely indicates a work of nonfiction. For biographies and bibliographies, “Subjects” field includes the name of the person. 
+
 Geographics: Information currently only available for some records in the HathiTrust dataset. Indicates the places covered in a given title, ie “Blasket Islands (Ireland).” “Subjects” and “Geographics” fields would likely be left blank in the cases where they do not already have entries. I have elected to include them in the final 1970s Bibliography dataset because they provide qualitative, descriptive information about a record. The fact that many records will have multiple empty fields is part of my thinking about merging data for legibility but not standardizing and cleaning it. This includes not feeling obligated to fill every metadata field for every record.
+
 Volume: Volume number for multi-volume works.
+
 Source: options are HathiTrust Post45 dataset, 20th-Century Bestsellers, or Northrop personal list. In the future event that other component datasets are merged or another researcher manually adds records, there would be additional options.
 (20CB Entry) Possibly include this as a yes/no field to indicate whether the 20th-Century Bestsellers database has a full entry for the title. That information would already be visible in the “breadcrumb” 20th-Century Bestsellers unformatted data tab, so I’m not sure if there is a need to also include it in the merged dataset.
 
@@ -59,7 +70,7 @@ Avid readers
 Reading the dataset and going back to HathiTrust to read book (if it’s not protected by copyright laws…) or going looking for a hard copy at a library.
 
 ### **Existing related scholarly datasets:**
-[Post45 HathiTrust Fiction] https://view.data.post45.org/index
+[Post45 HathiTrust Fiction](https://view.data.post45.org/index)
 [20th Century American Bestsellers]( http://bestsellers.lib.virginia.edu/decade/1970)
 
 How it is different from these existing datasets
