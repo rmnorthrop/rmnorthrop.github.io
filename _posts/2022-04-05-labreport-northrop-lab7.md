@@ -7,8 +7,6 @@ article_header:
     src: /abstractart.jpeg
 ---
 
-## **Dataset Abstract**
-
 ### **Dataset Title: 1970s Bibliography of American Books**
 
 ### **Dataset Description:**
