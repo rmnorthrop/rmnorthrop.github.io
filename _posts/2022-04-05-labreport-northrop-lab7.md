@@ -22,6 +22,8 @@ These criteria have been determined according to the guiding principle of books 
  
 <img class="image image--md" src="tabscreenshot.jpeg"/>
 
+![](https://raw.githubusercontent.com/rmnorthrop/rmnorthrop.github.io/master/tabscreenshot.jpeg)
+
 This “trail” will take the form of seven tabs. The final dataset will appear in the MERGED tab, while the other six tabs will show the construction process: the “raw” or unmodified data copied from the three source datasets and each modified component set prior to merging into the final 1970s Bibliography dataset. 
 
 *Boundaries/scope:* In the merging process, some records from HathiTrust and 20th-Century Bestsellers will be deleted (tbd exactly how). For example, sets include “false positives” of works published previously and republished in the 70s and duplicate records. These duplicates and reprints will remain visible in the breadcrumb tabs.
