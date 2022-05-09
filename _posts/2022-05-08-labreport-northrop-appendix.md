@@ -1,5 +1,5 @@
 ---
-title: Appendix: Dataset Construction
+title: Appendix Dataset Construction
 tags: Lab-Notebook-Entry
 article_header:
   type: cover

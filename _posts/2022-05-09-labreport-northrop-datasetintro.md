@@ -70,6 +70,7 @@ Formatting, or not-cleaning, it more labor-intensive than it seems like it would
 Works Cited
 
 Allison, Sarah. 2016. “Other People’s Data: Humanities Edition.” Journal of Cultural Analytics 1 (1). https://doi.org/10.22148/001c.11822.
+
 Muñoz, Trevor and Rawson, Katie. 2019. “Against Cleaning.” Debates in the Digital Humanities 2019. Regents of the University of Minnesota. https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51 
 
 Photo: Selections from Rachel's 70s shelf
