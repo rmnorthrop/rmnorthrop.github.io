@@ -9,7 +9,7 @@ article_header:
 
 ## **Building the [1970s Bibliography of American Literature](https://docs.google.com/spreadsheets/d/1eVIzo053ksP9c1OU5n1UARndQ0m0luoW7D4e-IOV4Ls/edit?usp=sharing)**
 
-**1. [HathiTrust Post 45]( https://view.data.post45.org/index) component list**
+### **1. [HathiTrust Post 45]( https://view.data.post45.org/index) component list**
 
 Step 1: Copy 11,869 records with Column F “inferreddate” between 1970 and 1979 to “HathiTrust 1970s” tab in Construction sheet.
 
@@ -39,7 +39,7 @@ NB: The HathiTrust Post45 dataset does not accurately display non-English langua
 
 Step 11: Add “HathiTrust Post45” to “Source” Column.
 
-**2. [20th-Century Bestsellers](http://bestsellers.lib.virginia.edu/decade/1970) component list**
+### **2. [20th-Century Bestsellers](http://bestsellers.lib.virginia.edu/decade/1970) component list**
  
 Step 1: Copy and paste records from the 20th-CB site into “20th C Bestsellers 1970s” tab.
 
@@ -55,9 +55,11 @@ Step 4a: If a record exists in the HathiTrust formatted 1970s list, add rank (an
 
 Step 4b: If a record for that book does not exist in HathiTrust, leave it on the 20th-CB list and confirm publication year. 
 
-Step 5: Copy and paste remaining records into “Dataset” tab of 1970s Bibliography. Sort sheet by publication year to integrate records.
+Step 6: Add 20thCB to "source" Column.
 
-**3. Northrop personal list**
+Step 6: Copy and paste remaining records into “Dataset” tab of 1970s Bibliography. Sort sheet by publication year to integrate records.
+
+### **3. Northrop personal list**
 
 Step 1: Copy and paste records into “Northrop 1970s” tab of Construction sheet.
 
@@ -67,9 +69,11 @@ Step 3: Remove foreign language and international publications.
 
 Step 4: NOT YET COMPLETED. Search each record to see book title it exists in “Dataset” tab of 1970s Bibliography (containing HathiTrust and 20th-CB records). If so, remove record from list.
 
-Step 5: Manually reenter “author” field values to read “Lastname, Firstname” and “Lastname, Firstname | Lastname, Firstname” in the case of multiple authors or editors.
+Step 5: Manually reenter “author” field values to read “Lastname, Firstname” and “Lastname, Firstname ; Lastname, Firstname” in the case of multiple authors or editors.
 
-Step 6: Copy and paste records into “Dataset” tab of 1970s Bibliography. Sort sheet by publication year to integrate records.
+Step 6: Add "Northrop" to "source" Column.
+
+Step 7: Copy and paste records into “Dataset” tab of 1970s Bibliography. Sort sheet by publication year to integrate records.
 
 
 Photo: Old school tools. (None of which were used in the construction of this dataset but which remain helpful for other household projects.)
