@@ -7,4 +7,4 @@ article_header:
     src: /bookshelf.jpeg
 ---
 
-## **1970s Bibliography of American Literature: A Dataset**
+## **Building the [1970s Bibliography of American Literature](https://docs.google.com/spreadsheets/d/1eVIzo053ksP9c1OU5n1UARndQ0m0luoW7D4e-IOV4Ls/edit?usp=sharing)**
